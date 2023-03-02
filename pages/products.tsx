@@ -9,7 +9,7 @@ const Products = () => (
     <Breadcrumb />
     <section className="products-page">
       <div className="container">
-        <ProductsFilter />
+        
         <ProductsContent />
       </div>
     </section>

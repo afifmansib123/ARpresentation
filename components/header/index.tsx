@@ -56,15 +56,19 @@ const Header = ({ isErrorPage }: HeaderType) => {
     <header className={`site-header ${!onTop ? 'site-header--fixed' : ''}`}>
       <div className="container">
         <Link href="/">
-          <a><h1 className="site-logo"><Logo />Amdani-Roptani</h1></a>
+          <a><h1 className="site-logo">-</h1><Logo /></a>
         </Link>
         <nav ref={navRef} className={`site-nav ${menuOpen ? 'site-nav--open' : ''}`}>
-          <Link href="/socials">
-            <a>Importer</a>
+
+          <a href='#' style={{color:'green'}}>REGISTER now</a>
+          <Link href="#">
+         <a href="#">Importer</a>
           </Link>
           <a href="#">Exporter</a>
           <a href="#">Trader</a>
-          <button className="site-nav__btn"><p>Account</p></button>
+          <a href="#">Vendor</a>
+
+          
         </nav>
 
         <div className="site-header__actions">

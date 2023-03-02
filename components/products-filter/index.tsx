@@ -48,7 +48,7 @@ const ProductsFilter = () => {
         </div>
         
         <div className="products-filter__block">
-          <button type="button">Size</button>
+          <button type="button">Weight</button>
           <div className="products-filter__block__content checkbox-square-wrapper">
             {productsSizes.map(type => (
               <Checkbox 
@@ -61,7 +61,7 @@ const ProductsFilter = () => {
         </div>
         
         <div className="products-filter__block">
-          <button type="button">Color</button>
+          <button type="button">Type</button>
           <div className="products-filter__block__content">
             <div className="checkbox-color-wrapper">
               {productsColors.map(type => (

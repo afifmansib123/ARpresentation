@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="site-footer__top">
           <div className="site-footer__description">
             <h6><Logo /> <span>Amdani</span>Roptani</h6>
-            <p>Operate your Business Remotely from anywhere</p>
+            <p>Amdani-Roptani 24/7</p>
             <ul className="site-footer__social-networks">
               <li><a href="#"><i className="icon-facebook"></i></a></li>
               <li><a href="#"><i className="icon-twitter"></i></a></li>
@@ -19,20 +19,20 @@ const Footer = () => {
 
           <div className="site-footer__links">
             <ul>
-              <li>Shopping online</li>
+              <li>Get Support</li>
               <li><a href="#">Order Status</a></li>
               <li><a href="#">Shipping and Delivery</a></li>
-              <li><a href="#">Returns</a></li>
+              <li><a href="#">LC clearence</a></li>
               <li><a href="#">Payment options</a></li>
               <li><a href="#">Contact Us</a></li>
             </ul>
             <ul>
-              <li>Information</li>
-              <li><a href="#">Gift Cards</a></li>
+              <li>Business Support</li>
+              <li><a href="#">Register a new business</a></li>
               <li><a href="#">Find a store</a></li>
               <li><a href="#">Newsletter</a></li>
-              <li><a href="#">Bacome a member</a></li>
-              <li><a href="#">Site feedback</a></li>
+              <li><a href="#">Bacome a Vendor</a></li>
+              <li><a href="#">Get investment</a></li>
             </ul>
             <ul>
               <li>Contact</li>
@@ -46,7 +46,7 @@ const Footer = () => {
       
       <div className="site-footer__bottom">
         <div className="container">
-          <p>DESIGN BY amdaniroptani.com - © 2023. ALL RIGHTS RESERVED.</p>
+          <p>designed by amdaniroptani.com - © 2023. ALL RIGHTS RESERVED.</p>
         </div>
       </div>
     </footer>

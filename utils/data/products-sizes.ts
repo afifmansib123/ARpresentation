@@ -1,27 +1,27 @@
 export const productsSizes = [
     {
       id: '1',
-      label: 'XS',
+      label: 'Cash-Talk to us',
     },
     {
       id: '2',
-      label: 'S',
+      label: 'LC/B2B',
     },
     {
       id: '3',
-      label: 'M',
+      label: 'Talk direct-BMTF',
     },
     {
       id: '4',
-      label: 'L',
+      label: 'Talk Direct-BRAC BANK',
     },
     {
       id: '5',
-      label: 'XL',
+      label: 'AR tokens(coming soon)',
     },
     {
       id: '6',
-      label: 'XXL',
+      label: 'AR Coins(coming soon)',
     },
   ];
   

@@ -12,7 +12,7 @@ const PageIntro = () => {
           <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-1.jpg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
-                <h2>Sale of the summer collection</h2>
+                <h2>Let Business start from today</h2>
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
               </div>
             </div>
@@ -23,8 +23,8 @@ const PageIntro = () => {
           <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-2.jpg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
-                <h2>Make your house into a home</h2>
-                <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
+                <h2>Search hundreds of catagories to trade in</h2>
+                <a href="#" className="btn-shop"><i className="icon-right"></i></a>
               </div>
             </div>
           </div>
@@ -37,8 +37,8 @@ const PageIntro = () => {
             <li>
               <i className="icon-shipping"></i>
               <div className="data-item__content">
-                <h4>Free Shipping</h4>
-                <p>On purchases over $199</p>
+                <h4>International Trade</h4>
+                <p>amdaniroptani.com will take care of all your shippings including port clearence</p>
               </div>
             </li>
             
@@ -53,8 +53,8 @@ const PageIntro = () => {
             <li>
               <i className="icon-cash"></i>
               <div className="data-item__content">
-                <h4>Originality Guaranteed</h4>
-                <p>30 days warranty for each product from our store</p>
+                <h4>Factory Made Products</h4>
+                <p>Talk to factories directly</p>
               </div>
             </li>
           </ul>

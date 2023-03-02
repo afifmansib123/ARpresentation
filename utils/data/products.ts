@@ -1,12 +1,12 @@
 export const products = [
   {
     id: '1',
-    name: 'T-Shirt Summer Vibes',
-    price: 119.99,
+    name: 'Automatic Heating Molding Integrated Production Line for Auto Headliner',
+    price: 3000,
     discount: 30,
     quantityAvailable: 2,
     category: 'T-shirt',
-    currentPrice: 89.99,
+    currentPrice: 2200,
     sizes: ['xl', 'l'], 
     colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
     images: [
@@ -61,11 +61,11 @@ export const products = [
   },
   {
     id: '2',
-    name: 'T-Shirt Summer Vibes',
-    price: 119.99,
+    name: 'Hyundai R225LC-7 Construction Machinery 20 Tons Crawler Excavator with Hammer',
+    price: 65000,
     quantityAvailable: 2,
     category: 'T-shirt',
-    currentPrice: 89.99,
+    currentPrice: 50000,
     sizes: ['xl', 'l'], 
     colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
     images: [
@@ -120,11 +120,11 @@ export const products = [
   },
   {
     id: '3',
-    name: 'T-Shirt Summer Vibes',
-    price: 119.99,
+    name: '856 Mining Work Mini Cummins Payloader China Loader Construction Machinery Equipment Liugong Brand Used Wheel Loader Liugong Clg836 Clg855 Clg856 Sale Price',
+    price: 23000,
     quantityAvailable: 2,
     category: 'T-shirt',
-    currentPrice: 89.99,
+    currentPrice: 16000,
     sizes: ['xl', 'l'], 
     colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
     images: [

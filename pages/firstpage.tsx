@@ -11,24 +11,25 @@ const IndexPage = () => {
 
       <section className="featured">
         <div className="container">
-          <article style={{backgroundImage: 'url(/images/featured-1.jpg)'}} className="featured-item featured-item-large">
+          <article style={{backgroundImage: 'url(/images/image9.jfif)'}} className="featured-item featured-item-large">
             <div className="featured-item__content">
-              <h3>New arrivals are now in!</h3>
-              <a href="#" className="btn btn--rounded">Show Collection</a>
+              <h3>CAT - heavy mechinaries heaven!</h3>
+              <a href="https://www.cat.com/en_US/products/new/equipment.html" className="btn btn--rounded">Show Collection</a>
             </div>
           </article>
           
-          <article style={{backgroundImage: 'url(/images/featured-2.jpg)'}} className="featured-item featured-item-small-first">
+          <article style={{backgroundImage: 'url(/images/image12.jfif)'}} className="featured-item featured-item-small-first">
             <div className="featured-item__content">
-              <h3>Basic t-shirts $29,99</h3>
-              <a href="#" className="btn btn--rounded">More details</a>
+              <h3>Wanna buy fresh fruits?</h3>
+              <h3>Asia's biggest market</h3>
+              <a href="#" className="btn btn--rounded">Take a tour</a>
             </div>
           </article>
           
-          <article style={{backgroundImage: 'url(/images/featured-3.jpg)'}} className="featured-item featured-item-small">
+          <article style={{backgroundImage: 'url(/images/image10.jpg)'}} className="featured-item featured-item-small">
             <div className="featured-item__content">
-              <h3>Sale this summer</h3>
-              <a href="#" className="btn btn--rounded">VIEW ALL</a>
+              <h3>Get raw metarials delivered to you factory</h3>
+              <a href="https://www.thesteel.co.th/en/home/" className="btn btn--rounded">VIEW Catagories</a>
             </div>
           </article>
         </div>
@@ -44,8 +45,8 @@ const IndexPage = () => {
             <li>
               <i className="icon-shipping"></i>
               <div className="data-item__content">
-                <h4>Free Shipping</h4>
-                <p>All purchases over $199 are eligible for free shipping via USPS First Class Mail.</p>
+                <h4>Port Clearence</h4>
+                <p>Get International items delivered to your factory in days</p>
               </div>
             </li>
             
@@ -53,24 +54,23 @@ const IndexPage = () => {
               <i className="icon-payment"></i>
               <div className="data-item__content">
                 <h4>Easy Payments</h4>
-                <p>All payments are processed instantly over a secure payment protocol.</p>
+                <p>We take care of your Transactions and LC papers</p>
               </div>
             </li>
             
             <li>
               <i className="icon-cash"></i>
               <div className="data-item__content">
-                <h4>Money-Back Guarantee</h4>
-                <p>If an item arrived damaged or you've changed your mind, you can send it
-                back for a full refund.</p>
+                <h4>Authenticity Guaranteed</h4>
+                <p>Every vendor here is AR varified which mean 0% chance of getting frauded</p>
               </div>
             </li>
             
             <li>
               <i className="icon-materials"></i>
               <div className="data-item__content">
-                <h4>Finest Quality</h4>
-                <p>Designed to last, each of our products has been crafted with the finest materials.</p>
+                <h4>Talk to an Expert</h4>
+                <p>Have a chat with our global market experts regarding your import-export business</p>
               </div>
             </li>
           </ul>

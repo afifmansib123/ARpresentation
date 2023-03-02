@@ -14,26 +14,28 @@ const LoginPage = () => {
   return (
 
     <>
+    <Layout>
 
     <section className="page-intro">  
       <Swiper navigation effect="fade" className="swiper-wrapper">
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-1.jpg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/image6.jfif')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
-                <h2>Sale of the summer collection</h2>
-                <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
+                <p style={{color:"#A9A9A9"}}>welcome to</p>
+                <h2>#AmdaniRoptani.com</h2>
+                
               </div>
             </div>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-2.jpg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/image7.jfif')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
-                <h2>Make your house into a home</h2>
-                <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
+                <h2>World's First import Export Business Hub</h2>
+                <a href="#" className="btn-shop"><i className="icon-right"></i>lets take a tour</a>
               </div>
             </div>
           </div>
@@ -46,24 +48,30 @@ const LoginPage = () => {
             <li>
               <i className="icon-shipping"></i>
               <div className="data-item__content">
-                <h4>Free Shipping</h4>
-                <p>On purchases over $199</p>
+                <h4>Import</h4>
+                <h4>Export</h4>
+                <h4>Trade</h4>
+                <p>expand your network
+                </p>
+                <p>meet vendors worldwide</p>
               </div>
             </li>
             
             <li>
-              <i className="icon-shipping"></i>
+            <i className="icon-materials"></i>
               <div className="data-item__content">
-                <h4>99% Satisfied Customers</h4>
-                <p>Our clients' opinions speak for themselves</p>
+                <h4>Direct Chat with Staffs</h4>
+                <p>our hotline service</p>
+                <p>ready to assist you</p>
+                <p>anywhere anytime</p>
               </div>
             </li>
             
             <li>
               <i className="icon-cash"></i>
               <div className="data-item__content">
-                <h4>Originality Guaranteed</h4>
-                <p>30 days warranty for each product from our store</p>
+                <h4>International Transactions</h4>
+                <p>guarantee for each product from our store</p>
               </div>
             </li>
           </ul>
@@ -71,16 +79,15 @@ const LoginPage = () => {
       </div>
     </section>
 
-    <div className="container" style={{backgroundColor: 'LightGray' }} >
+    <div className="container" style={{backgroundColor: '#F0FFFF' }} >
 
       <div className="container" style={{ position: 'relative',  marginBottom: '0px' ,marginTop: '0px'}}>
         <div className="row">
           <div className="col-md-6">
             <section className="featured">
-              <article style={{ backgroundImage: 'url(/images/image1.jpg)' }} className="featured-item featured-item-large">
+              <article style={{ backgroundImage: 'url(/images/image8.jfif)' }} className="featured-item featured-item-large">
                 <div className="featured-item__content">
-                <img src="/images/logo.png" alt="Amdani-Roptani.com logo" height = "100" width = "100" style={{ position: 'absolute', top: -100, right: -270 }} />
-                <h3 style={{ fontSize: '48px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Welcome to Amdani-Roptani.com</h3>
+                <h3 style={{ fontSize: '48px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}></h3>
                   <h3 style={{ fontSize: '20px' }}>World's First Import-Export Business Portal</h3>
                   <a href="/firstpage" className="btn btn--rounded">Take a tour</a>
                 </div>
@@ -90,7 +97,7 @@ const LoginPage = () => {
         </div>
       </div>
 
-      <section className="featured" style = {{backgroundColor : 'LightGray'}}>
+      <section className="featured" style = {{backgroundColor : '#F0F8FF'}}>
         <div className="container">
           <article style={{backgroundImage: 'url(/images/image4.jfif)', backgroundSize: 'cover', backgroundPosition: 'center center'}} className="featured-item featured-item-large">
             <div className="featured-item__content">
@@ -124,8 +131,10 @@ const LoginPage = () => {
       </article>
       </section>
       </div>
-
+      
       </div>
+      <Footer/>
+      </Layout>
       </>
   );
 };

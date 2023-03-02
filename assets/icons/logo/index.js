@@ -1,6 +1,6 @@
 const Logo = () => {
     return (
-      <img src="/images/slide-1.jpg" alt="logo" width="90" height="80"/>
+      <img src="/images/image11.jpg" alt="logo" width="100" height="70"/>
     )
   };
   

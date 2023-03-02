@@ -7,14 +7,14 @@ const ProductsContent = () => {
   return (
     <section className="products-content">
       <div className="products-content__intro">
-        <h2>Men's Tops <span>(133)</span></h2>
+        <h2>Heavy Machines<span>(133)</span></h2>
         <button type="button" onClick={() => setOrderProductsOpen(!orderProductsOpen)} className="products-filter-btn"><i className="icon-filters"></i></button>
         <form className={`products-content__filter ${orderProductsOpen ? 'products-order-open' : ''}`}>
           <div className="products__filter__select">
-            <h4>Show products: </h4>
+            <h4>List :</h4>
             <div className="select-wrapper">
               <select>
-                <option>Popular</option>
+                <option>Weight</option>
               </select>
             </div>
           </div>
@@ -22,7 +22,7 @@ const ProductsContent = () => {
             <h4>Sort by: </h4>
             <div className="select-wrapper">
               <select>
-                <option>Popular</option>
+                <option>Weight</option>
               </select>
             </div>
           </div>
