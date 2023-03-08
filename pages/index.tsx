@@ -1,9 +1,5 @@
 import Layout from '../layouts/Main';
-import PageIntro from '../components/page-intro';
-import ProductsFeatured from '../components/products-featured';
 import Footer from '../components/footer';
-import Subscribe from '../components/subscribe';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, {EffectFade, Navigation} from 'swiper';
 

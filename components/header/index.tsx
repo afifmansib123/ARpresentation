@@ -60,7 +60,7 @@ const Header = ({ isErrorPage }: HeaderType) => {
         </Link>
         <nav ref={navRef} className={`site-nav ${menuOpen ? 'site-nav--open' : ''}`}>
 
-          <a href='#' style={{color:'green'}}>REGISTER now</a>
+          <a href='/login' style={{color:'green'}}>REGISTER now</a>
           <Link href="#">
          <a href="#">Importer</a>
           </Link>
@@ -70,6 +70,7 @@ const Header = ({ isErrorPage }: HeaderType) => {
 
           
         </nav>
+
 
         <div className="site-header__actions">
           <button ref={searchRef} className={`search-form-wrapper ${searchOpen ? 'search-form--active' : ''}`}>

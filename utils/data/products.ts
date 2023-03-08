@@ -179,11 +179,11 @@ export const products = [
   },
   {
     id: '4',
-    name: 'T-Shirt Summer Vibes',
-    price: 119.99,
+    name: 'Impact Wrench Kit: 1 in Square Drive Size, 1,900 ft-lb Fastening Torque, Brushless Motor, 18V DC',
+    price: 7800,
     quantityAvailable: 2,
     category: 'T-shirt',
-    currentPrice: 89.99,
+    currentPrice: 11900,
     sizes: ['xl', 'l'], 
     colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
     images: [
@@ -238,11 +238,11 @@ export const products = [
   },
   {
     id: '5',
-    name: 'T-Shirt Summer Vibes',
-    price: 119.99,
+    name: 'Garment Factory Movable Air-Float Industrial Sewing Cutting Table',
+    price: 700,
     quantityAvailable: 2,
     category: 'T-shirt',
-    currentPrice: 89.99,
+    currentPrice: 1000,
     sizes: ['xl', 'l'], 
     colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
     images: [
@@ -297,12 +297,12 @@ export const products = [
   },
   {
     id: '6',
-    name: 'T-Shirt Summer Vibes',
-    price: 119.99,
+    name: 'Recycled High Density Polyethylene/HDPE Black Plastic Granules Used in Pipes/Crate/Drums for Best Price',
+    price: 4000,
     discount: 30,
     quantityAvailable: 2,
     category: 'T-shirt',
-    currentPrice: 89.99,
+    currentPrice: 3300,
     sizes: ['xl', 'l'], 
     colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
     images: [
