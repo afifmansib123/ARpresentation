@@ -57,7 +57,7 @@ const Content = ({ product }: ProductContent) => {
       <div className="product-content__intro">
         <h5 className="product__id">Product ID:<br></br>{product.id}</h5>
         <span className="product-on-sale">Discount</span>
-        <h2 className="product__name">Item X</h2>
+        <h2 className="product__name">Item X = the details of here</h2>
 
         <div className="product__prices">
           <h4>${ product.currentPrice }</h4>
