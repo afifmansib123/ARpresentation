@@ -98,21 +98,21 @@ const LoginPage = () => {
           <article style={{backgroundImage: 'url(/images/image4.jfif)', backgroundSize: 'cover', backgroundPosition: 'center center'}} className="featured-item featured-item-large">
             <div className="featured-item__content">
               <h3>Meet Hundreds of Importer-Exporter Businessmen from World-Wide</h3>
-              <a href="#" className="btn btn--rounded">Open a Free account</a>
+              <a href="/register" className="btn btn--rounded">Open a Free account</a>
             </div>
           </article>
           
           <article style={{backgroundImage: 'url(/images/image2.jfif)'}} className="featured-item featured-item-small-first">
             <div className="featured-item__content">
               <h3>Start a small-scale Import export Business with our guidance</h3>
-              <a href="#" className="btn btn--rounded">Tell me more</a>
+              <a href="/store" className="btn btn--rounded">Tell me more</a>
             </div>
           </article>
           
           <article style={{backgroundImage: 'url(/images/image5.jfif)'}} className="featured-item featured-item-small">
             <div className="featured-item__content">
               <h3>Have a business already ? Lets Expand your network</h3>
-              <a href="#" className="btn btn--rounded">Open Store here</a>
+              <a href="/store" className="btn btn--rounded">Open Store here</a>
             </div>
           </article>
         </div>
@@ -123,8 +123,11 @@ const LoginPage = () => {
       <div className="container" style={{ position: 'relative', marginTop: '0px',marginBottom : '0px'}}>
       <section className="featured">
       <article style={{backgroundImage: 'url(/images/image6.jpg)', backgroundSize: 'cover', backgroundPosition: 'center center'}} className="featured-item featured-item-large">
-        <p style={{ color : 'black'}}>Welcome to AmdaniRoptani.com, the premier import export hub for businesses in Bangladesh. Our website offers a comprehensive platform for vendors to sign up and register as importers, exporters, or agents. We provide guidance and support to those looking to open new import export businesses, connecting them with hundreds of importers and exporters from around the world. Our team of dedicated professionals is passionate about helping individuals and businesses succeed in the global trade industry. Thank you for choosing AmdaniRoptani.com for your import export needs.</p>
-        <p style={{ color : 'black'}}>the </p>
+        <p style={{ color : 'black'}}>Welcome to AmdaniRoptani.com, the premier import export hub for businesses in Bangladesh. Our website offers a comprehensive platform for vendors to sign up and register as importers, exporters, or agents. We provide guidance and support to those looking to open new import export businesses, connecting them with hundreds of importers and exporters from around the world. Our team of dedicated professionals is passionate about helping individuals and businesses succeed in the global trade industry. Thank you for choosing AmdaniRoptani.com for your import export needs.
+
+        <br/> <br/>  How to Start :
+        <br/>
+         <br/>Amdani-Roptani.com is an online platform connecting importers and exporters worldwide. in our platform you can sign up and use the platform as an importer, exporter or a trader. You would be given these options during sign up process. If you already have a business and would like to operate a store , please sign up and read the instructions. If you want to start a new business, start by opening up a free catagory and choosing what platform you would like to conduct your business. For any complications or further inquaries, you can always direct call to our Hotline or talk to us through social media accounts. Let the business begin today !</p>
       </article>
       </section>
       </div>
