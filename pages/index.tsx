@@ -124,6 +124,7 @@ const LoginPage = () => {
       <section className="featured">
       <article style={{backgroundImage: 'url(/images/image6.jpg)', backgroundSize: 'cover', backgroundPosition: 'center center'}} className="featured-item featured-item-large">
         <p style={{ color : 'black'}}>Welcome to AmdaniRoptani.com, the premier import export hub for businesses in Bangladesh. Our website offers a comprehensive platform for vendors to sign up and register as importers, exporters, or agents. We provide guidance and support to those looking to open new import export businesses, connecting them with hundreds of importers and exporters from around the world. Our team of dedicated professionals is passionate about helping individuals and businesses succeed in the global trade industry. Thank you for choosing AmdaniRoptani.com for your import export needs.</p>
+        <p style={{ color : 'black'}}>the </p>
       </article>
       </section>
       </div>
